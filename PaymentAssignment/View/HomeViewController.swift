@@ -139,7 +139,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
             self?.collectionView.reloadData()
         }
     }
-
+    
     func fetchedStoresDataFailure() {
         DispatchQueue.main.async { [weak self] in
             self?.collectionView.isHidden = true
